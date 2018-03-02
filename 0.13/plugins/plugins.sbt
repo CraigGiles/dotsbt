@@ -59,4 +59,4 @@ addSbtPlugin("com.eed3si9n" % "sbt-dirty-money" % "0.1.0")
  * Create the .ensime file by starting sbt and run the ensimeConfig
  * command.
  */
-  addSbtPlugin("org.ensime" % "sbt-ensime" % "1.12.14")
+  addSbtPlugin("org.ensime" % "sbt-ensime" % "2.1.0")

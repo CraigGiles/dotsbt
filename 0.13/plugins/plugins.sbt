@@ -36,7 +36,7 @@ addSbtPlugin("io.spray" % "sbt-revolver" % "0.8.0")
  * ScalaClippy is an advice database that provides helpful hints for
  * compiler errors with additional messages to aid in your debugging.
  */
-addSbtPlugin("com.softwaremill.clippy" % "plugin-sbt" % "0.3.2")
+// addSbtPlugin("com.softwaremill.clippy" % "plugin-sbt" % "0.3.2")
 
 /**
  * sbt-dirty-money is an sbt plugin for cleaning Ivy2 cache. If you use

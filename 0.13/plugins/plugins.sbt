@@ -1,9 +1,4 @@
 /**
- * A Scala library to fetch dependencies from Maven / Ivy repositories
- */
-// addSbtPlugin("io.get-coursier" % "sbt-coursier" % "1.0.0-RC9")
-
-/**
  * Display your SBT project's dependency updates.
  */
 addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.3.0")
@@ -51,7 +46,6 @@ addSbtPlugin("io.spray" % "sbt-revolver" % "0.8.0")
  */
 addSbtPlugin("com.eed3si9n" % "sbt-dirty-money" % "0.1.0")
 
-// ENSIME support
 /**
  * This sbt plugin generates a .ensime file and provides various
  * convenience commands for interacting with ENSIME.
@@ -59,4 +53,4 @@ addSbtPlugin("com.eed3si9n" % "sbt-dirty-money" % "0.1.0")
  * Create the .ensime file by starting sbt and run the ensimeConfig
  * command.
  */
-  addSbtPlugin("org.ensime" % "sbt-ensime" % "2.1.0")
+addSbtPlugin("org.ensime" % "sbt-ensime" % "2.5.1")
